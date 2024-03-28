@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+
+}
+
+#contactlist {
+    width: 600px;
+    height: 600px;
+    background-color: rgb(46, 46, 46);
+    position: absolute;
+    top: 3px;
+    left: 27%;
+    border-radius: 10%;
+}
+
+h4 {
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 50px;
+    left: 180px;
+}
+
+#img1 {
+    width: 80px;
+    position: relative;
+    top: 80px;
+    left: 260px;
+}
+
+#img2 {
+    width: 130px;
+    position: relative;
+    top: 80px;
+    left: 235px;
+}
+
+#img3 {
+    width: 60px;
+    position: relative;
+    top: 100px;
+    left: 270px;
+}
+
+.f {
+    width: 100px;
+    position: relative;
+    top: 80px;
+    left: 260px;
+}
+
+.i {
+    width: 100px;
+    position: relative;
+    top: 80px;
+    left: 260px;
+}
+
+.g {
+    width: 70px;
+    position: relative;
+    top: 110px;
+    left: 275px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#head {
+    border-bottom: 1px solid white;
+    width: 240px;
+}
+
+.g:hover {
+    color: red;
+}
+
+.i:hover {
+    color: pink;
+}
+
+.f:hover {
+    color: blue;
+}
+
+.end {
+    position: relative;
+    top: 140px;
+    left: 210px;
+}
+@media only screen and (max-width:360px){
+    #contactlist{
+        position: relative;
+        top: 0;
+        left: 20px;
+        width: 300px;
+        height: 510px;
+    }
+
+    #head{
+        position: relative;
+        top: 20px;
+        left: 35px;
+    }
+
+    #img1{
+        position: relative;
+        top: 25px;
+        left: 120px;
+    }
+
+    .f{
+        position: relative;
+        top: 20px;
+        left: 115px;
+    }
+
+    #img2{
+        position: relative;
+        top: 25px;
+        left: 95px;
+    }
+
+    .i{
+        position: relative;
+        top: 20px;
+        left: 115px;
+    }
+
+    #img3{
+        position: relative;
+        top: 35px;
+        left: 130px;
+    }
+
+    .g{
+        position: relative;
+        top: 40px;
+        left: 130px;
+    }
+
+    .end{
+        position: relative;
+        top: 80px;
+        left: 70px;
+    }
+}
